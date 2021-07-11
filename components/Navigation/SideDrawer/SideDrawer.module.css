@@ -1,0 +1,116 @@
+.SideDrawer {
+  position: fixed;
+  width: 500px;
+  max-width: 70%;
+  height: 850px;
+  left: 10px;
+  top: 10px;
+  z-index: 200;
+  background-color: white;
+  padding: 32px 16px;
+  box-sizing: border-box;
+  transition: transform 0.3s ease-out;
+  border: solid black 5px;
+  text-align: center;
+}
+
+.closeCross {
+  position: fixed;
+  right: 2px;
+  top: 0;
+  cursor: pointer;
+}
+
+.Open {
+  transform: translateX(0);
+}
+
+.Close {
+  transform: translateX(-200%);
+}
+
+@media (max-width: 1700px) {
+  .SideDrawer {
+    position: fixed;
+    width: 450px;
+    max-width: 70%;
+    height: 700px;
+    left: 10px;
+    top: 10px;
+    z-index: 200;
+    background-color: white;
+    padding: 32px 16px;
+    box-sizing: border-box;
+    transition: transform 0.3s ease-out;
+    border: solid black 5px;
+    text-align: center;
+  }
+}
+
+@media (max-width: 1025px) {
+  .SideDrawer {
+    position: fixed;
+    width: 400px;
+    max-width: 70%;
+    height: 600px;
+    left: 10px;
+    top: 10px;
+    z-index: 200;
+    background-color: white;
+    padding: 32px 16px;
+    box-sizing: border-box;
+    transition: transform 0.3s ease-out;
+    border: solid black 5px;
+    text-align: center;
+  }
+}
+
+@media (max-width: 800px) {
+  .SideDrawer {
+    position: fixed;
+    width: 350px;
+    max-width: 70%;
+    height: 500px;
+    left: 10px;
+    top: 10px;
+    z-index: 200;
+    background-color: white;
+    padding: 32px 16px;
+    box-sizing: border-box;
+    transition: transform 0.3s ease-out;
+    border: solid black 5px;
+    text-align: center;
+  }
+}
+
+@media (max-width: 500px) {
+  .SideDrawer {
+    position: fixed;
+    width: 400px;
+    max-width: 80%;
+    height: 450px;
+    left: 5px;
+    top: 5px;
+    z-index: 200;
+    background-color: white;
+    padding: 16px 8px;
+    box-sizing: border-box;
+    transition: transform 0.3s ease-out;
+    border: solid black 5px;
+    text-align: center;
+  }
+
+  .closeCross {
+    position: fixed;
+    right: 2px;
+    top: 0;
+    width: 25px;
+    height: 25px;
+  }
+}
+
+@media (max-width: 330px) {
+  .SideDrawer {
+    height: 400px;
+  }
+}

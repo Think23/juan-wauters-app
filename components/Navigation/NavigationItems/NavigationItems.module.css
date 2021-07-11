@@ -1,0 +1,181 @@
+.NavigationItems {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  /* display: flex; */
+  flex-flow: column;
+  align-items: center;
+  height: 90%;
+}
+
+.NavigationItems li {
+  padding: 10px;
+  font-family: "Walter Turncoat", cursive;
+  font-weight: bolder;
+  cursor: pointer;
+  color: black;
+}
+
+.NavigationItems li:hover {
+    transform: scale(1.1);
+    transition: ease-in-out, 0.5s;
+  }
+
+.NavigationItems a:hover {
+    all: unset;
+}
+
+.list {
+  padding: 15px;
+  font-size: 33px;
+  cursor: pointer;
+
+}
+
+.subList {
+  margin-left: 20px;
+  padding-top: 5px;
+  padding-bottom: 20px;
+  font-size: 24px;
+  text-align: left;
+}
+
+.SocialIcons {
+  display: flex;
+  position: absolute;
+  bottom: 10px;
+}
+
+.SocialIcons li {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+.SocialIcons ul {
+  width: 100%;
+  padding: 0.5em;
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  list-style-type: none;
+}
+
+.SocialIcon {
+  margin: 15px;
+}
+.SocialIcon:hover {
+  transform: scale(1.2);
+  transition: ease-in-out, 0.5s;
+}
+.SocialIcons {
+    display: flex;
+    position: fixed;
+    bottom: 0px;
+    left: 0%;
+    width: 100%;
+  }
+
+  @media (min-width: 1700px) {
+    .SocialIcon {
+      transform: scale(1.35);
+      margin: 25px;
+    }
+    .SocialIcon:hover {
+      transform: scale(1.5)
+    }
+  }
+@media (max-width: 1700px) {
+  .NavigationItems li {
+    padding: 5px;
+  }
+  .list {
+    padding: 10px;
+    font-size: 30px;
+  }
+  .subList {
+    margin-left: 15px;
+    padding-top: 5px;
+    padding-bottom: 15px;
+    font-size: 22px;
+  }
+}
+@media (max-width: 1024px) {
+  .NavigationItems li {
+    padding: 3px;
+  } 
+  .list {
+    padding: 7px;
+    font-size: 28px;
+  }
+  .subList {
+    margin-left: 15px;
+    padding-top: 5px;
+    padding-bottom: 12px;
+    font-size: 18px;
+  }
+}
+@media (max-width: 800px) {
+  .NavigationItems li {
+    padding: 3px;
+  }
+  .list {
+    padding: 7px;
+    font-size: 20px;
+  }
+  .subList {
+    margin-left: 15px;
+    padding-top: 5px;
+    padding-bottom: 12px;
+    font-size: 16px;
+  }
+}
+@media (max-width: 500px) {
+  .NavigationItems li {
+    padding: 2px;
+  }
+  .list {
+    padding: 5px;
+    font-size: 20px;
+  } 
+  .subList {
+    margin-left: 15px;
+    padding-top: 5px;
+    padding-bottom: 12px;
+    font-size: 14px;
+  }
+  .SocialIcons {
+    margin: 0px;
+    padding: 0px;
+    list-style: none;
+    display: flex;
+  }
+  .SocialIcon {
+    margin: 5px;
+    height: 5px;
+    transform: scale(0.8)
+  }
+}
+@media (max-width: 330px) {
+  .NavigationItems li {
+    padding: 2px;
+  }
+  .list {
+    padding: 5px;
+    font-size: 15px;
+  }
+  .subList {
+    margin-left: 15px;
+    padding-top: 5px;
+    padding-bottom: 12px;
+    font-size: 12px;
+  }
+  .SocialIcons {
+    margin: 0px;
+    padding: 0px;
+    list-style: none;
+  }
+  .SocialIcon {
+    margin: 2px;
+  }
+}

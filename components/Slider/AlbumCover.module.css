@@ -1,0 +1,83 @@
+.AlbumCover {
+  flex: 0 0 auto;
+  padding-right: 0px;
+  padding-bottom: 20px;
+  border: none;
+  cursor: pointer;
+  background-color: transparent;
+  margin: 15px;
+} 
+
+.AlbumCover img {
+  height: 600px;
+  width: auto;
+}
+
+.AlbumCover:hover {
+ transform: scale(1.03);
+ transition:ease-in-out, 0.5s;
+}
+
+.AlbumCover span {
+  font-family: 'Walter Turncoat', cursive;
+  font-weight: bolder;
+  font-size: 33px;
+}
+
+@media (max-width: 1700px) {
+  .AlbumCover img {
+    height: 500px;
+  }
+}
+
+@media (max-width: 1025px) {
+  .AlbumCover img {
+    height: 600px;
+  }
+}
+
+@media (max-width: 600px) {
+  .AlbumCover {
+    margin: 4px;
+  }
+
+  .AlbumCover img {
+    height: 400px;
+  }
+
+  .AlbumCover span {
+    font-family: 'Walter Turncoat', cursive;
+    font-weight: bolder;
+    font-size: 25px;
+  }
+}
+
+@media (max-width: 500px) {
+  .AlbumCover img {
+    height: 350px;
+  }
+
+  .AlbumCover span {
+    font-family: 'Walter Turncoat', cursive;
+    font-weight: bolder;
+    font-size: 25px;
+  }
+}
+
+@media (max-width: 365px) {
+  .AlbumCover img {
+    height: 300px;
+  }
+
+  .AlbumCover span {
+    font-family: 'Walter Turncoat', cursive;
+    font-weight: bolder;
+    font-size: 20px;
+  }
+}
+
+@media (max-width: 285px) {
+  .AlbumCover img {
+    height: 250px;
+  }
+}

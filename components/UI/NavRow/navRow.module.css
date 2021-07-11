@@ -1,0 +1,38 @@
+.NavRow {
+  display: none;
+}
+
+.navegar2 {
+   position: absolute;
+   height: 800px;
+   width: 60%;
+   background-size: contain;
+   color: transparent;
+   overflow: hidden;
+   opacity: 0;
+   transition: all .2s ease-in-out;
+   z-index: 2;
+   border: none;
+   margin-top: 20px;
+}
+.navegar3 {
+   position: absolute;
+   width: 60%;
+   height: 800px;
+   right: 0em;
+   background-size: contain;
+   color: transparent;
+   overflow: hidden;
+   opacity: 0;
+   transition: all .2s ease-in-out;
+   z-index: 2;
+   border: none;
+   margin-top: 20px;
+}
+
+.navegar2:hover {
+   cursor: w-resize;
+}
+.navegar3:hover {
+   cursor: e-resize;
+}

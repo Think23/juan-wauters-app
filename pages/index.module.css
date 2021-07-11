@@ -1,0 +1,115 @@
+.HomePage {
+  background-color: none;
+}
+
+.Title {
+  text-align: center;
+}
+
+/* .Title:hover {
+  transform: scale(1.03);
+  transition: ease-in-out, 0.5s;
+} */
+
+.Continue {
+  position: fixed;
+  bottom: 150px;
+  right: 150px;
+  cursor: pointer;
+}
+
+.Continue:hover {
+  transform: scale(1.03);
+  transition: ease-in-out, 0.5s;
+}
+
+@media (max-width: 1025px) {
+  .Title {
+    margin: 100px;
+  }
+
+  .Continue {
+    position: fixed;
+    bottom: 200px;
+    right: 50px;
+  }
+}
+
+@media (max-width: 800px) {
+  .Title {
+    margin: 50px;
+  }
+
+  .Continue {
+    position: fixed;
+    bottom: 75px;
+    right: 20px;
+    padding: 20px;
+    margin: 20px;
+  }
+}
+
+@media (max-width: 600px) {
+  .Title {
+    text-align: center;
+    margin: 0px;
+  }
+
+  .Continue {
+    margin: 0px;
+    padding: 0px;
+    width: 240px;
+    height: 120px;
+  }
+}
+
+@media (max-width: 500px) {
+  .Title {
+    text-align: center;
+    margin: 0px;
+    margin-top: 100px;
+    padding: 0;
+    width: 100%;
+  }
+
+  .Continue {
+    margin: 0px;
+    padding: 0px;
+    width: 200px;
+    height: 100px;
+  }
+}
+
+@media (max-width: 370px) {
+  .Title {
+    text-align: center;
+    margin: 0px;
+    margin-top: 80px;
+    padding: 0;
+    width: 100%;
+  }
+
+  .Continue {
+    margin: 0px;
+    padding: 0px;
+    width: 150px;
+    height: 75px;
+  }
+}
+
+@media (max-width: 285px) {
+  .HomePage {
+    margin-right: 20px;
+    padding-right: 20px;
+  }
+
+  .Continue {
+    margin: 0px;
+    padding: 0px;
+    width: 120px;
+    height: 60px;
+  }
+}
+
+
+
