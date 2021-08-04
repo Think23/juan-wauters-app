@@ -31,23 +31,23 @@ function NavigationItems(props) {
           </Link>
           <div className={classes.subList}>
             <Link href="/albums/real-life-situations">
-              <li onClick={hideModalHandler}># REAL LIFE SITUATIONS</li>
+              <li onClick={hideModalHandler}>♫ REAL LIFE SITUATIONS</li>
             </Link>
             <Link href="/albums/introducing-juan-pablo">
               <li onClick={hideModalHandler}>
-                # INTRODUCING JUAN PABLO
+              ♫ INTRODUCING JUAN PABLO
                 {/* <Image src={introducingJuanPablo} alt="introducing-juan-pablo" layout="fill" /> */}
               </li>
             </Link>
             <li onClick={showModalHandler}>
-              # LA ONDA DE JUAN PABLO
+            ♫ LA ONDA DE JUAN PABLO
               {/* <Image src={laOndaDeJuanPablo} alt="la-onda-de-juan-pablo" layout="fill" /> */}
             </li>
             <Link href="/albums/who-me">
-              <li onClick={hideModalHandler}># WHO ME?</li>
+              <li onClick={hideModalHandler}>♫ WHO ME?</li>
             </Link>
             <Link href="/albums/NAP">
-              <li onClick={hideModalHandler}># NORTH AMERICAN POETRY</li>
+              <li onClick={hideModalHandler}>♫ NORTH AMERICAN POETRY</li>
             </Link>
           </div>
           <a

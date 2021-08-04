@@ -122,7 +122,7 @@
 import Link from "next/link";
 import Image from "next/image";
 import titleImage from "../static/images/juan-wauters.png";
-import continueImage from "../static/images/lets-go.png";
+import continueImage from "../static/images/vamos.png";
 import classes from "./index.module.css";
 
 function HomePage() {

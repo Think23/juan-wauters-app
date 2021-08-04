@@ -6,155 +6,110 @@ import SVG from "react-inlinesvg";
 const songs = {
   1: {
     tracks: {
-      spotify: "spotify:track:54vpagPheGvRFcLJeGl5Y9",
+      spotify: "spotify:track:0NLCS21Ld4HPcLvjlBUhb9",
       appleMusic:
-        "https://embed.music.apple.com/us/album/super-talking/1454723412?i=1454723413",
+        "https://embed.music.apple.com/us/let-me-hip-you-to-something/733081006?i=733081009",
       deezer:
-        "https://www.deezer.com/plugins/player?format=classic&autoplay=true&playlist=true&width=700&height=350&color=007FEB&layout=&size=medium&type=tracks&id=668969502&app_id=1",
+        "https://widget.deezer.com/widget/light/track/72217745",
     },
   },
   2: {
     tracks: {
-      spotify: "spotify:track:4RD1lwAMHKZXKSr7xgNhQW",
+      spotify: "spotify:track:0oqzhihFWOB6bv5F2uthA9",
       appleMusic:
-        "https://embed.music.apple.com/us/album/doing-alright/1454723412?i=1454723414",
+        "https://embed.music.apple.com/us/album/sanity-or-not/733081006?i=733081010",
       deezer:
-        "https://www.deezer.com/plugins/player?format=classic&autoplay=true&playlist=true&width=700&height=350&color=007FEB&layout=&size=medium&type=tracks&id=668969512&app_id=1",
+        "https://widget.deezer.com/widget/light/track/72217746",
     },
   },
   3: {
     tracks: {
-      spotify: "spotify:track:37mt8MIW8cIfklxTET4jW8",
+      spotify: "spotify:track:3Rp8ojgBmojlfOZxXVc3Ox",
       appleMusic:
-        "https://embed.music.apple.com/us/album/rubia/1454723412?i=1454723418",
+        "https://embed.music.apple.com/us/album/lost-in-soup/733081006?i=733081011",
       deezer:
-        "https://www.deezer.com/plugins/player?format=classic&autoplay=true&playlist=true&width=700&height=350&color=007FEB&layout=&size=medium&type=tracks&id=668969522&app_id=1",
+        "https://widget.deezer.com/widget/light/track/72217747",
     },
   },
   4: {
     tracks: {
-      spotify: "spotify:track:4OlkiUABpOP3v4RLw96Pon",
+      spotify: "spotify:track:4mywVtK0JAVcNayyXqPAiw",
       appleMusic:
-        "https://embed.music.apple.com/us/album/letter/1454723412?i=1454723419",
+        "https://embed.music.apple.com/us/album/escucho-mucho/733081006?i=733081012",
       deezer:
-        "https://www.deezer.com/plugins/player?format=classic&autoplay=true&playlist=true&width=700&height=350&color=ff0000&layout=&size=medium&type=tracks&id=641949072&app_id=1",
+        "https://widget.deezer.com/widget/light/track/72217748",
     },
   },
   5: {
     tracks: {
-      spotify: "spotify:track:5lNdpnjT0eNKHvcNkv72ew",
+      spotify: "spotify:track:4RORi02KV6zept33bXalsM",
       appleMusic:
-        "https://embed.music.apple.com/us/album/bolero-maurice-ravel/1454723412?i=1454723420",
+        "https://embed.music.apple.com/us/album/woke-up-feeling-like-sleeping/733081006?i=733081013",
       deezer:
-        "https://www.deezer.com/plugins/player?format=classic&autoplay=true&playlist=true&width=700&height=350&color=007FEB&layout=&size=medium&type=tracks&id=668969542&app_id=1",
+        "https://widget.deezer.com/widget/light/track/72217749",
     },
   },
   6: {
     tracks: {
-      spotify: "spotify:track:74g1GQEznQbe3fah279XW0",
+      spotify: "spotify:track:67KpJhhOfEZJFHdzXc6k1Z",
       appleMusic:
-        "https://embed.music.apple.com/us/album/mystery/1454723412?i=1454723421",
+        "https://embed.music.apple.com/us/album/water/733081006?i=733081014",
       deezer:
-        "https://www.deezer.com/plugins/player?format=classic&autoplay=true&playlist=true&width=700&height=350&color=007FEB&layout=&size=medium&type=tracks&id=668969552&app_id=1",
+        "https://widget.deezer.com/widget/light/track/72217750",
     },
   },
   7: {
     tracks: {
-      spotify: "spotify:track:57bhmX4zTeRasqh8Cky8hS",
+      spotify: "spotify:track:4Fm0Bpa1s027L3EjnOXI34",
       appleMusic:
-        "https://embed.music.apple.com/us/album/lonely/1454723412?i=1454723422",
+        "https://embed.music.apple.com/us/album/goo/733081006?i=733081015",
       deezer:
-        "https://www.deezer.com/plugins/player?format=classic&autoplay=true&playlist=true&width=700&height=350&color=007FEB&layout=&size=medium&type=tracks&id=668969562&app_id=1",
+        "https://widget.deezer.com/widget/light/track/72217751",
     },
   },
   8: {
     tracks: {
-      spotify: "spotify:track:2sJlnMKn8TpllT2U3m70Ay",
+      spotify: "spotify:track:1D1CdMZa3EvxtwbvyPz6G4",
       appleMusic:
-        "https://embed.music.apple.com/us/album/mountain/1454723412?i=1454723423",
+        "https://embed.music.apple.com/us/album/all-tall-mall-will-fall/733081006?i=733081016",
       deezer:
-        "https://www.deezer.com/plugins/player?format=classic&autoplay=true&playlist=true&width=700&height=350&color=007FEB&layout=&size=medium&type=tracks&id=668969572&app_id=1",
+        "https://widget.deezer.com/widget/light/track/72217752",
     },
   },
   9: {
     tracks: {
-      spotify: "spotify:track:1tTVAwS5LCDIr6qgQNOaYg",
+      spotify: "spotify:track:1NFYZJrA3fhyVekVJSMAxT",
       appleMusic:
-        "https://embed.music.apple.com/us/album/jaime-tortuga/1454723412?i=1454723424",
+        "https://embed.music.apple.com/us/album/continue-to-be-you/733081006?i=733081017",
       deezer:
-        "https://www.deezer.com/plugins/player?format=classic&autoplay=true&playlist=true&width=700&height=350&color=007FEB&layout=&size=medium&type=tracks&id=668969582&app_id=1",
+        "https://widget.deezer.com/widget/light/track/72217753",
     },
   },
   10: {
     tracks: {
-      spotify: "spotify:track:2ZLKdobYzWgLjUhj4JBr4U",
+      spotify: "spotify:track:5xoFS87FqC8rkyK7mfinQ9",
       appleMusic:
-        "https://embed.music.apple.com/us/album/el-hombre-de-la-calle/1454723412?i=1454723425",
+        "https://embed.music.apple.com/us/album/breathing-feat-carmelle/733081006?i=733081018",
       deezer:
-        "https://www.deezer.com/plugins/player?format=classic&autoplay=true&playlist=true&width=700&height=350&color=ff0000&layout=&size=medium&type=tracks&id=656680772&app_id=1",
+        "https://widget.deezer.com/widget/light/track/72217754",
     },
   },
   11: {
     tracks: {
-      spotify: "spotify:track:1ryeWO1ourhWBZ6580FkdW",
+      spotify: "spotify:track:207MZKJL7pDvXf8AfaIYcH",
       appleMusic:
-        "https://embed.music.apple.com/us/album/dos/1454723412?i=1454723636",
+        "https://embed.music.apple.com/us/album/how-do-they-all-do-feat-carmelle/733081006?i=733081019",
       deezer:
-        "https://www.deezer.com/plugins/player?format=classic&autoplay=true&playlist=true&width=700&height=350&color=007FEB&layout=&size=medium&type=tracks&id=668969602&app_id=1",
+        "https://widget.deezer.com/widget/light/track/72217755",
     },
   },
   12: {
     tracks: {
-      spotify: "spotify:track:1YexttmsVnbkDktbAfoitf",
+      spotify: "spotify:track:39ueDNy58Vke49Ilg2XlSr",
       appleMusic:
-        "https://embed.music.apple.com/us/album/what-you-gonna-do/1454723412?i=1454723637",
+        "https://embed.music.apple.com/us/album/ay-ay-ay/733081006?i=733081020",
       deezer:
-        "https://www.deezer.com/plugins/player?format=classic&autoplay=true&playlist=true&width=700&height=350&color=007FEB&layout=&size=medium&type=tracks&id=668969612&app_id=1",
-    },
-  },
-  13: {
-    tracks: {
-      spotify: "spotify:track:2Fiyni4zKCyoKbwI2n9S6z",
-      appleMusic:
-        "https://embed.music.apple.com/us/album/letter-ii-feat-maxine-yolanda/1454723412?i=1454723638",
-      deezer:
-        "https://www.deezer.com/plugins/player?format=classic&autoplay=true&playlist=true&width=700&height=350&color=007FEB&layout=&size=medium&type=tracks&id=668969622&app_id=1",
-    },
-  },
-  14: {
-    tracks: {
-      spotify: "spotify:track:3earNMFlfH1QtZhqpfwuxj",
-      appleMusic:
-        "https://embed.music.apple.com/us/album/crazy-funny-feat-maxine-yolanda/1454723412?i=1454723641",
-      deezer:
-        "https://www.deezer.com/plugins/player?format=classic&autoplay=true&playlist=true&width=700&height=350&color=007FEB&layout=&size=medium&type=tracks&id=668969632&app_id=1",
-    },
-  },
-  15: {
-    tracks: {
-      spotify: "spotify:track:1r6lpEPbGOLGUVt43UyTJy",
-      appleMusic:
-        "https://embed.music.apple.com/us/album/lora/1454723412?i=1454723642",
-      deezer:
-        "https://www.deezer.com/plugins/player?format=classic&autoplay=true&playlist=true&width=700&height=350&color=007FEB&layout=&size=medium&type=tracks&id=668969642&app_id=1",
-    },
-  },
-  16: {
-    tracks: {
-      spotify: "spotify:track:7xUQjDLsRSh5323robWrQx",
-      appleMusic:
-        "https://embed.music.apple.com/us/album/straighten-up-and-lose/1454723412?i=1454723643",
-      deezer:
-        "https://www.deezer.com/plugins/player?format=classic&autoplay=true&playlist=true&width=700&height=350&color=007FEB&layout=&size=medium&type=tracks&id=668969652&app_id=1",
-    },
-  },
-  17: {
-    tracks: {
-      spotify: "spotify:track:5Awh1RXqVjwMo8Oh4Me8yB",
-      appleMusic:
-        "https://embed.music.apple.com/us/album/saludos/1454723412?i=1454723644",
-      deezer:
-        "https://www.deezer.com/plugins/player?format=classic&autoplay=true&playlist=true&width=700&height=350&color=007FEB&layout=&size=medium&type=tracks&id=668969662&app_id=1",
+        "https://widget.deezer.com/widget/light/track/72217756",
     },
   },
 };
@@ -732,11 +687,11 @@ class IntroducingJuanPablo extends Component {
             allowFullScreen="1"
             allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
             title="YouTube video player"
-            src="https://www.youtube.com/embed/eResaNhTli8"
+            src="https://www.youtube.com/embed/EZ78lrg0k-U"
           ></iframe>
         </div>
         <div className="video-title">
-          <h5> "I'm All Wrong" on a Bicycle</h5>
+       
           {/* <img src="/static/images/introducing-juan-pablo/svgs/vid-el-hombre-de-la-calle.svg" /> */}
         </div>
         <div className="intro videos-header">

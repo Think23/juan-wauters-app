@@ -8,7 +8,7 @@ const albumCover = (props) => (
       style={{ border: "none", backgroundColor: "transparent" }}
     >
       <div className={props.className}>
-        <Image src={props.src} alt={props.alt} width="550px" height="600px"/>
+        <Image src={props.src} alt={props.alt} width="600px" height="600px"/>
       </div>
       <span>{props.caption}</span>
     </div>

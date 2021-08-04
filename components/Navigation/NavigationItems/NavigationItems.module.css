@@ -17,19 +17,22 @@
 }
 
 .NavigationItems li:hover {
-    transform: scale(1.1);
-    transition: ease-in-out, 0.5s;
-  }
+  transform: scale(1.1);
+  transition: ease-in-out, 0.5s;
+}
+
+.NavigationItems a {
+  all: unset;
+}
 
 .NavigationItems a:hover {
-    all: unset;
+  all: unset;
 }
 
 .list {
   padding: 15px;
   font-size: 33px;
   cursor: pointer;
-
 }
 
 .subList {
@@ -69,22 +72,22 @@
   transition: ease-in-out, 0.5s;
 }
 .SocialIcons {
-    display: flex;
-    position: fixed;
-    bottom: 0px;
-    left: 0%;
-    width: 100%;
-  }
+  display: flex;
+  position: fixed;
+  bottom: 0px;
+  left: 0%;
+  width: 100%;
+}
 
-  @media (min-width: 1700px) {
-    .SocialIcon {
-      transform: scale(1.35);
-      margin: 25px;
-    }
-    .SocialIcon:hover {
-      transform: scale(1.5)
-    }
+@media (min-width: 1700px) {
+  .SocialIcon {
+    transform: scale(1.35);
+    margin: 25px;
   }
+  .SocialIcon:hover {
+    transform: scale(1.5);
+  }
+}
 @media (max-width: 1700px) {
   .NavigationItems li {
     padding: 5px;
@@ -103,7 +106,7 @@
 @media (max-width: 1024px) {
   .NavigationItems li {
     padding: 3px;
-  } 
+  }
   .list {
     padding: 7px;
     font-size: 28px;
@@ -137,7 +140,7 @@
   .list {
     padding: 5px;
     font-size: 20px;
-  } 
+  }
   .subList {
     margin-left: 15px;
     padding-top: 5px;
@@ -153,7 +156,7 @@
   .SocialIcon {
     margin: 5px;
     height: 5px;
-    transform: scale(0.8)
+    transform: scale(0.8);
   }
 }
 @media (max-width: 330px) {

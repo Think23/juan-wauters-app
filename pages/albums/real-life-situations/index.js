@@ -6,155 +6,191 @@ import SVG from "react-inlinesvg";
 const songs = {
   1: {
     tracks: {
-      spotify: "spotify:track:54vpagPheGvRFcLJeGl5Y9",
+      spotify: "spotify:track:2apQzB2qbfr6eM6vebYPqA?si=sDj1SfUBRkqMP0HoX-pKOQ",
       appleMusic:
-        "https://embed.music.apple.com/us/album/super-talking/1454723412?i=1454723413",
+        "https://embed.music.apple.com/us/album/a-jpw-headspace-2020/1550007376?i=1550007377",
       deezer:
-        "https://www.deezer.com/plugins/player?format=classic&autoplay=true&playlist=true&width=700&height=350&color=007FEB&layout=&size=medium&type=tracks&id=668969502&app_id=1",
+        "https://widget.deezer.com/widget/light/track/1225189832",
     },
   },
   2: {
     tracks: {
-      spotify: "spotify:track:4RD1lwAMHKZXKSr7xgNhQW",
+      spotify: "spotify:track:1vMOk60VzMl7QOYInd4dko?si=2r8cSWnwS4SNCrlCvCogZw",
       appleMusic:
-        "https://embed.music.apple.com/us/album/doing-alright/1454723412?i=1454723414",
+        "https://embed.music.apple.com/us/album/monsoon/1550007376?i=1550007378",
       deezer:
-        "https://www.deezer.com/plugins/player?format=classic&autoplay=true&playlist=true&width=700&height=350&color=007FEB&layout=&size=medium&type=tracks&id=668969512&app_id=1",
+        "https://widget.deezer.com/widget/light/track/1225189842",
     },
   },
   3: {
     tracks: {
-      spotify: "spotify:track:37mt8MIW8cIfklxTET4jW8",
+      spotify: "spotify:track:0PEjIhsXHreEdMXh2LcwIM?si=xBcW6BkiS7iBbBqSCSZVJw",
       appleMusic:
-        "https://embed.music.apple.com/us/album/rubia/1454723412?i=1454723418",
+        "https://embed.music.apple.com/us/album/sentimiento-queens/1550007376?i=1550007379",
       deezer:
-        "https://www.deezer.com/plugins/player?format=classic&autoplay=true&playlist=true&width=700&height=350&color=007FEB&layout=&size=medium&type=tracks&id=668969522&app_id=1",
+        "https://widget.deezer.com/widget/light/track/1225189852",
     },
   },
   4: {
     tracks: {
-      spotify: "spotify:track:4OlkiUABpOP3v4RLw96Pon",
+      spotify: "spotify:track:2xukDcihOVcK9cBvpR25we?si=gmY0BQGNRUeAkU_mTOfM0Q",
       appleMusic:
-        "https://embed.music.apple.com/us/album/letter/1454723412?i=1454723419",
+        "https://embed.music.apple.com/us/album/locura/1550007376?i=1550007380",
       deezer:
-        "https://www.deezer.com/plugins/player?format=classic&autoplay=true&playlist=true&width=700&height=350&color=ff0000&layout=&size=medium&type=tracks&id=641949072&app_id=1",
+        "https://widget.deezer.com/widget/light/track/1225189862",
     },
   },
   5: {
     tracks: {
-      spotify: "spotify:track:5lNdpnjT0eNKHvcNkv72ew",
+      spotify: "spotify:track:3hrf3EPvjZvHF8QtdOPYVJ?si=SsPyjd77TUaskJZRZdda2g",
       appleMusic:
-        "https://embed.music.apple.com/us/album/bolero-maurice-ravel/1454723412?i=1454723420",
+        "https://embed.music.apple.com/us/album/ventana/1550007376?i=1550007382",
       deezer:
-        "https://www.deezer.com/plugins/player?format=classic&autoplay=true&playlist=true&width=700&height=350&color=007FEB&layout=&size=medium&type=tracks&id=668969542&app_id=1",
+        "https://widget.deezer.com/widget/light/track/1225189872",
     },
   },
   6: {
     tracks: {
-      spotify: "spotify:track:74g1GQEznQbe3fah279XW0",
+      spotify: "spotify:track:6XxduIGbrzNY2EGzVCnGkY?si=1zbPzR2YR2SqTl87SDa4Yw",
       appleMusic:
-        "https://embed.music.apple.com/us/album/mystery/1454723412?i=1454723421",
+        "https://embed.music.apple.com/us/album/presentation-with-nick-hakim/1550007376?i=1550007383",
       deezer:
-        "https://www.deezer.com/plugins/player?format=classic&autoplay=true&playlist=true&width=700&height=350&color=007FEB&layout=&size=medium&type=tracks&id=668969552&app_id=1",
+        "https://widget.deezer.com/widget/light/track/1225189882",
     },
   },
   7: {
     tracks: {
-      spotify: "spotify:track:57bhmX4zTeRasqh8Cky8hS",
+      spotify: "spotify:track:41PFWbKhWtn4U7uVMYe0NQ?si=lGlBB4O4QfO-Nxxi5hp_Kw",
       appleMusic:
-        "https://embed.music.apple.com/us/album/lonely/1454723412?i=1454723422",
+        "https://embed.music.apple.com/us/album/unity/1550007376?i=1550007384",
       deezer:
-        "https://www.deezer.com/plugins/player?format=classic&autoplay=true&playlist=true&width=700&height=350&color=007FEB&layout=&size=medium&type=tracks&id=668969562&app_id=1",
+        "https://widget.deezer.com/widget/light/track/1225189892",
     },
   },
   8: {
     tracks: {
-      spotify: "spotify:track:2sJlnMKn8TpllT2U3m70Ay",
+      spotify: "spotify:track:5CvuyqpbNAHn3fatb3TrgL?si=Uz9a5UArQnOZDiWWr7oMaw",
       appleMusic:
-        "https://embed.music.apple.com/us/album/mountain/1454723412?i=1454723423",
+        "https://embed.music.apple.com/us/album/real-with-mac-demarco/1550007376?i=1550007385",
       deezer:
-        "https://www.deezer.com/plugins/player?format=classic&autoplay=true&playlist=true&width=700&height=350&color=007FEB&layout=&size=medium&type=tracks&id=668969572&app_id=1",
+        "https://widget.deezer.com/widget/light/track/1225189902",
     },
   },
   9: {
     tracks: {
-      spotify: "spotify:track:1tTVAwS5LCDIr6qgQNOaYg",
+      spotify: "spotify:track:4UTEMwaLuxo2JD1703kQLq?si=X_kUP42UQ-CmVwliY_K5oA",
       appleMusic:
-        "https://embed.music.apple.com/us/album/jaime-tortuga/1454723412?i=1454723424",
+        "https://embed.music.apple.com/us/album/keep-cool/1550007376?i=1550007386",
       deezer:
-        "https://www.deezer.com/plugins/player?format=classic&autoplay=true&playlist=true&width=700&height=350&color=007FEB&layout=&size=medium&type=tracks&id=668969582&app_id=1",
+        "https://widget.deezer.com/widget/light/track/1225189912",
     },
   },
   10: {
     tracks: {
-      spotify: "spotify:track:2ZLKdobYzWgLjUhj4JBr4U",
+      spotify: "spotify:track:0lZDhEPlh7CErcwlJSFJEe?si=pfB_-tipRgm7nqy1JfQBcg",
       appleMusic:
-        "https://embed.music.apple.com/us/album/el-hombre-de-la-calle/1454723412?i=1454723425",
+        "https://embed.music.apple.com/us/album/carmina-pens%C3%A1/1550007376?i=1550007387",
       deezer:
-        "https://www.deezer.com/plugins/player?format=classic&autoplay=true&playlist=true&width=700&height=350&color=ff0000&layout=&size=medium&type=tracks&id=656680772&app_id=1",
+        "https://widget.deezer.com/widget/light/track/1225189922",
     },
   },
   11: {
     tracks: {
-      spotify: "spotify:track:1ryeWO1ourhWBZ6580FkdW",
+      spotify: "spotify:track:47POWlgbzG4pChhTGf7XNc?si=YSE7UfZFQquk6Enf1B6ylA",
       appleMusic:
-        "https://embed.music.apple.com/us/album/dos/1454723412?i=1454723636",
+        "https://embed.music.apple.com/us/album/a-peter-pan-donuts-conversation/1550007376?i=1550007389",
       deezer:
-        "https://www.deezer.com/plugins/player?format=classic&autoplay=true&playlist=true&width=700&height=350&color=007FEB&layout=&size=medium&type=tracks&id=668969602&app_id=1",
+        "https://widget.deezer.com/widget/light/track/1225189932",
     },
   },
   12: {
     tracks: {
-      spotify: "spotify:track:1YexttmsVnbkDktbAfoitf",
+      spotify: "spotify:track:2gRFo03Svc6CYHOdN4zJWo?si=j6VPUqRcSMKzdTavUuCieQ",
       appleMusic:
-        "https://embed.music.apple.com/us/album/what-you-gonna-do/1454723412?i=1454723637",
+        "https://embed.music.apple.com/us/album/lion-dome/1550007376?i=1550007390",
       deezer:
-        "https://www.deezer.com/plugins/player?format=classic&autoplay=true&playlist=true&width=700&height=350&color=007FEB&layout=&size=medium&type=tracks&id=668969612&app_id=1",
+        "https://widget.deezer.com/widget/light/track/1225189942",
     },
   },
   13: {
     tracks: {
-      spotify: "spotify:track:2Fiyni4zKCyoKbwI2n9S6z",
+      spotify: "spotify:track:3DD83ApkG3Dj4XPoBuhFlT?si=juWrpUUrRBWZ6fzn0vTSYg",
       appleMusic:
-        "https://embed.music.apple.com/us/album/letter-ii-feat-maxine-yolanda/1454723412?i=1454723638",
+        "https://embed.music.apple.com/us/album/jpw-talking/1550007376?i=1550007393",
       deezer:
-        "https://www.deezer.com/plugins/player?format=classic&autoplay=true&playlist=true&width=700&height=350&color=007FEB&layout=&size=medium&type=tracks&id=668969622&app_id=1",
+        "https://widget.deezer.com/widget/light/track/1225189952",
     },
   },
   14: {
     tracks: {
-      spotify: "spotify:track:3earNMFlfH1QtZhqpfwuxj",
+      spotify: "spotify:track:5HOZNj0v3WSRkUJ8swJkZr?si=UyNAs8mbSSiFfHP0ILea9A",
       appleMusic:
-        "https://embed.music.apple.com/us/album/crazy-funny-feat-maxine-yolanda/1454723412?i=1454723641",
+        "https://embed.music.apple.com/us/album/acordes/1550007376?i=1550007394",
       deezer:
-        "https://www.deezer.com/plugins/player?format=classic&autoplay=true&playlist=true&width=700&height=350&color=007FEB&layout=&size=medium&type=tracks&id=668969632&app_id=1",
+        "https://widget.deezer.com/widget/light/track/1225189962",
     },
   },
   15: {
     tracks: {
-      spotify: "spotify:track:1r6lpEPbGOLGUVt43UyTJy",
+      spotify: "spotify:track:5q2ikPwfLL7O9xz1nFqoht?si=DZ6RI3ErR8G4DA9uWibZQg",
       appleMusic:
-        "https://embed.music.apple.com/us/album/lora/1454723412?i=1454723642",
+        "https://embed.music.apple.com/us/album/bailando-from-silvia-prieto-feat-martin-rejtman/1550007376?i=1550007395",
       deezer:
-        "https://www.deezer.com/plugins/player?format=classic&autoplay=true&playlist=true&width=700&height=350&color=007FEB&layout=&size=medium&type=tracks&id=668969642&app_id=1",
+        "https://widget.deezer.com/widget/light/track/1225189972",
     },
   },
   16: {
     tracks: {
-      spotify: "spotify:track:7xUQjDLsRSh5323robWrQx",
+      spotify: "spotify:track:2BnlAQ7acqSBjgJBkYqmOf?si=cFO57onUSR2cDyiM2CI9jw",
       appleMusic:
-        "https://embed.music.apple.com/us/album/straighten-up-and-lose/1454723412?i=1454723643",
+        "https://embed.music.apple.com/us/album/est%C3%A1s-escuchando/1550007376?i=1550007576",
       deezer:
-        "https://www.deezer.com/plugins/player?format=classic&autoplay=true&playlist=true&width=700&height=350&color=007FEB&layout=&size=medium&type=tracks&id=668969652&app_id=1",
+        "https://widget.deezer.com/widget/light/track/1225189982",
     },
   },
   17: {
     tracks: {
-      spotify: "spotify:track:5Awh1RXqVjwMo8Oh4Me8yB",
+      spotify: "spotify:track:6b6jahI5YNy8AT3iXAzP13?si=Y_uXy7ZGRXeoDy9qonwDkw",
       appleMusic:
-        "https://embed.music.apple.com/us/album/saludos/1454723412?i=1454723644",
+        "https://embed.music.apple.com/us/album/crack-dabbling/1550007376?i=1550007578",
       deezer:
-        "https://www.deezer.com/plugins/player?format=classic&autoplay=true&playlist=true&width=700&height=350&color=007FEB&layout=&size=medium&type=tracks&id=668969662&app_id=1",
+        "https://widget.deezer.com/widget/light/track/1225189992",
+    },
+  },
+  18: {
+    tracks: {
+      spotify: "spotify:track:3g0GQtHvzGRRNzjZvmhxI2?si=I1DfN0rLT--4qjdWNIZwzA",
+      appleMusic:
+        "https://embed.music.apple.com/us/album/a-jpw-theme-song/1550007376?i=1550007579",
+      deezer:
+        "https://widget.deezer.com/widget/light/track/1225190002",
+    },
+  },
+  19: {
+    tracks: {
+      spotify: "spotify:track:5OlOkjHBip3PSdxruived9?si=fsGfvs37RXWE65GbI5lBOg",
+      appleMusic:
+        "https://embed.music.apple.com/us/album/yendo/1550007376?i=1550007580",
+      deezer:
+        "https://widget.deezer.com/widget/light/track/1225190012",
+    },
+  },
+  20: {
+    tracks: {
+      spotify: "spotify:track:0RDspMLyN8ypHWYh8k6ynG?si=53CgbU8rR8aqdWNeZXHjpQ",
+      appleMusic:
+        "https://embed.music.apple.com/us/album/powder/1550007376?i=1550007581",
+      deezer:
+        "https://widget.deezer.com/widget/light/track/1225190022",
+    },
+  },
+  21: {
+    tracks: {
+      spotify: "spotify:track:41Uqy9FxsCP1K39LAlat5x?si=dDHRZEEKRfSvXp4_mYzHQg",
+      appleMusic:
+        "https://embed.music.apple.com/us/album/ny-weaz/1550007376?i=1550007582",
+      deezer:
+        "https://widget.deezer.com/widget/light/track/1225190032",
     },
   },
 };
@@ -763,6 +799,46 @@ class IntroducingJuanPablo extends Component {
               height="50px"
             />
           </Song>
+          <Song
+            onClick={() => this.selectSong("18")}
+            className={song == 18 ? "song song--selected" : "song"}
+          >
+            <SVG
+              className="song-name-wrapper"
+              src="/static/images/albums/real-life-situations-edited/songs/18.svg"
+              height="50px"
+            />
+          </Song>
+          <Song
+            onClick={() => this.selectSong("19")}
+            className={song == 19 ? "song song--selected" : "song"}
+          >
+            <SVG
+              className="song-name-wrapper"
+              src="/static/images/albums/real-life-situations-edited/songs/19.svg"
+              height="50px"
+            />
+          </Song>
+          <Song
+            onClick={() => this.selectSong("20")}
+            className={song == 20 ? "song song--selected" : "song"}
+          >
+            <SVG
+              className="song-name-wrapper"
+              src="/static/images/albums/real-life-situations-edited/songs/20.svg"
+              height="50px"
+            />
+          </Song>
+          <Song
+            onClick={() => this.selectSong("21")}
+            className={song == 21 ? "song song--selected" : "song"}
+          >
+            <SVG
+              className="song-name-wrapper"
+              src="/static/images/albums/real-life-situations-edited/songs/21.svg"
+              height="50px"
+            />
+          </Song>
         </div>
         <div className="intro videos-header">
           <img src="/static/images/introducing-juan-pablo/svgs/videos.svg" />
@@ -774,12 +850,12 @@ class IntroducingJuanPablo extends Component {
             allowFullScreen="1"
             allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
             title="YouTube video player"
-            src="https://www.youtube.com/embed/aBSsGWRmp4E?autoplay=0&amp;enablejsapi=1&amp;widgetid=1"
+            src="https://www.youtube.com/embed/ihDkWvhmSpE"
           ></iframe>
         </div>
-        <div className="video-title">
+        {/* <div className="video-title">
           <img src="/static/images/introducing-juan-pablo/svgs/vid-el-hombre-de-la-calle.svg" />
-        </div>
+        </div> */}
         <div className="intro videos-header">
           <img src="/static/images/introducing-juan-pablo/svgs/more-videos-coming-soon.svg" />
         </div>

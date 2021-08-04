@@ -18,10 +18,10 @@
 
 .AlbumSlider {
   background-color: transparent;
-  display: flex;    
-  overflow-x: auto ;
+  display: flex;
+  overflow-x: auto;
   align-items: center;
-  scroll-behavior: smooth;  
+  scroll-behavior: smooth;
 }
 
 .AlbumSlider::-webkit-scrollbar {
@@ -33,6 +33,13 @@
   padding-right: 25px;
 } */
 
+@media (max-width: 1300px) {
+  .AlbumsTitle {
+    height: 50px;
+    margin-top: 30px;
+    margin-bottom: 30px;
+  }
+}
 
 @media (max-width: 1025px) {
   .AlbumsTitle {
@@ -75,7 +82,7 @@
 
 @media (max-width: 285px) {
   .Albums {
-    margin: 8px
+    margin: 8px;
   }
 
   .AlbumsTitle {
